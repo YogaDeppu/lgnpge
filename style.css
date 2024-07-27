@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    box-shadow: 0px 1px 4px 3px rgba(179,179,179,1);
+    display: flex;
+    min-height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+
+.img-navbar {
+    width: 9vh;
+    height: 9vh;
+    border-radius: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-around {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.al-center {
+    display: flex;
+    align-items: center;
+}
+
+.ml-6 {
+    margin-left: 6%;
+}
+
+.ml-10px {
+    margin-left: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.menu a:hover {
+    color: rgb(116, 116, 116);
+}
+
+li {
+    list-style: none;
+}
+
+.font-25 {
+    font-size: 25px;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(asset/Judul\ \(5\).png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 11vh;
+}
+
+header:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top,rgb(255, 255, 255),rgba(0,0,0,0));
+}
+
+.log-per {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    background-color: rgb(06, 39, 33);
+    width: 370px;
+    padding-left: 100px;
+    border-radius: 100px 0px 0px 100px;
+    margin-top: 50px;
+    float: right;
+}
+
+.log-per h1 {
+    font-size: 40px;
+    line-height: 0.2;
+}
+
+.vis-log {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    line-height: 0.2;
+}
+
+.vis-log h3 {
+    font-size: 30px;
+    color: white;
+}
+
+.vis-log h5 {
+    font-size: 20px;
+}
+
+
+.profil {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.haha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    width: 30%;
+    padding: 40px;
+}
+
+.haha:hover {
+    background-color: rgb(168, 168, 168);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.profil ul {
+    margin-top: 0;
+}
+
+.profil2 {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.text-prof {
+    display: flex;
+    flex-direction: column;
+}
+
+.profil2 img {
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.spasi {
+    padding: 30px;
+}
+
+.galeri {
+    margin-left: 150px;
+    margin-right: 150px;
+    text-transform: uppercase;
+}
+
+.galeri img {
+    border-radius: 5px;
+    height: 250px;
+    margin: 10px;
+}
+
+.imgg {
+    display: flex;
+    flex-direction: row;
+    overflow-x : scroll;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(116, 116, 116);
+    
+}
+
+.contac {
+    display: flex;
+    flex-direction: row;
+}
+
+.contac h4 {
+    margin:  20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
